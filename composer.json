@@ -1,0 +1,36 @@
+{
+  "name": "kylehuynh/website_wordpress",
+  "description": "A website template with WordPress by Kyle Huynh",
+  "keywords": [
+    "wordpress",
+    "blog",
+    "cms"
+  ],
+  "type": "package",
+  "homepage": "https://wordpress.org/",
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "WordPress Community",
+      "homepage": "https://wordpress.org/about/"
+    }
+  ],
+  "support": {
+    "issues": "https://core.trac.wordpress.org/",
+    "forum": "https://wordpress.org/support/",
+    "docs": "https://developer.wordpress.org/",
+    "irc": "irc://irc.freenode.net/wordpress",
+    "source": "https://core.trac.wordpress.org/browser"
+  },
+  "repositories":[
+    {
+      "type":"composer",
+       "url":"https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8",
+    "johnpbloch/wordpress-core-installer": "^2.0",
+    "johnpbloch/wordpress-core": "^6.0"
+  }
+}
